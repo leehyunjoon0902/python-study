@@ -8,3 +8,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# 매 step 원본 기록(크다). --eval / --lv 로 다시 만들 수 있다. 요약 CSV와 차트는 올린다.
+data/results/eval_random.csv
+data/results/eval_rule.csv
+data/results/eval_trained.csv
+data/results/eval_*_nopred.csv
+data/results/lv_rule.csv
+data/results/lv_trained.csv
+data/results/noimm/eval_random.csv
+data/results/noimm/eval_rule.csv
+data/results/noimm/eval_trained.csv
